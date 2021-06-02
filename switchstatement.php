@@ -1,18 +1,18 @@
 <?php 
-$a = "b";
+$a = "2";
  switch ($a) {
-    case "a":
-        echo "A";
+    case "1":
+        echo "one";
         break;
-    case "b":
-        echo "B";
+    case "2":
+        echo "two";
        break;
-    case "c":
-        echo "C";
+    case "3":
+        echo "three";
         break;
      
     default:
-        echo "select a to c";
+        echo "please select 1-3";
         break;
  }
 ?>
